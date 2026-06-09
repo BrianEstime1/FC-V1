@@ -93,11 +93,11 @@ function Portfolio() {
                 </a>
                 <a
                   className="hero-link"
-                  href="https://linkedin.com/in/brianestime"
+                  href="https://linkedin.com/in/brian-estime-747435355"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <LinkedInIcon /> linkedin.com/in/brianestime
+                  <LinkedInIcon /> linkedin.com/in/brian-estime
                 </a>
               </div>
             </div>
@@ -465,10 +465,10 @@ function Portfolio() {
           <div className="about-grid">
             <div className="about-text">
               <p>
-                I'm an Electrical Engineering student transferring to <strong>UCF in Fall 2026</strong>,
-                focused on embedded systems, PCB design, and power electronics. I build
-                real hardware — not just simulations. My current project, the FC-V1, is a
-                custom STM32 dev board I designed from scratch in KiCad and sent to fab.
+                I'm an Electrical Engineering student at <strong>UCF</strong>, focused on
+                embedded systems, PCB design, and power electronics. I build real hardware
+                — not just simulations. My current project, the FC-V1, is a custom STM32
+                dev board I designed from scratch in KiCad and sent to fab.
               </p>
               <p>
                 My background is unusual: I grew up around my family's <strong>HVAC business</strong>,
@@ -478,15 +478,15 @@ function Portfolio() {
               </p>
               <p>
                 At the <strong>USF TROPICS Lab</strong>, I work on biomedical optical
-                instrumentation — bridging low-level microcontroller code with
-                NIR spectroscopy hardware. It's taught me that the gap between a schematic
-                and a working sensor pipeline is where most of the engineering actually lives.
+                instrumentation — bridging low-level microcontroller code with NIR
+                spectroscopy hardware. It's taught me that the gap between a schematic and
+                a working sensor pipeline is where most of the engineering actually lives.
               </p>
               <p>
-                I'm targeting roles in <strong>defense, aerospace, and automotive</strong> —
-                industries where the hardware has to be right the first time. Joining UCF
-                Knights Racing Formula SAE in Fall 2026 is part of that path:
-                real-time embedded systems on a competition vehicle, shipping under deadline.
+                I'm targeting roles in <strong>aerospace and automotive</strong> — industries
+                where the hardware has to be right the first time. Joining UCF Knights
+                Racing Formula SAE is part of that path: real-time embedded systems on a
+                competition vehicle, shipping under deadline.
               </p>
             </div>
 
@@ -520,7 +520,7 @@ function Portfolio() {
           </span>
           <div className="footer-links">
             <a href="https://github.com/BrianEstime1" target="_blank" rel="noreferrer">GitHub</a>
-            <a href="https://linkedin.com/in/brianestime" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a href="https://linkedin.com/in/brian-estime-747435355" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
         </div>
       </footer>
