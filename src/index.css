@@ -380,6 +380,22 @@ section {
   color: var(--text-dim);
 }
 
+.read-more-link {
+  display: inline-block;
+  margin-top: 16px;
+  font-size: 12px;
+  color: var(--cyan);
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+.read-more-link:hover {
+  opacity: 1;
+  color: #fff;
+}
+
 /* PCB SVG */
 .pcb-container {
   margin: 16px 0;
