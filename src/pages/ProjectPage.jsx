@@ -18,7 +18,9 @@ const PROJECTS = {
     statusClass: 'badge-ordered',
     eta: 'board arrives soon',
     tags: ['KiCad', 'Power Electronics', 'Synchronous Buck', 'MOSFET Switching', 'Gate Driver', 'Thermal Design', 'DC-DC'],
-    images: [],
+    images: [
+      { src: '/buck-board.svg', caption: 'PCB layout — rendered from KiCad Gerbers (F.Cu / B.Cu / Silkscreen) · 68.9mm × 59.0mm · 2-layer' },
+    ],
     note: null,
   },
   'ferdair': {

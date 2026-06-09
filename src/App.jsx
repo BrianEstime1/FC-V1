@@ -244,6 +244,17 @@ function Portfolio() {
                 Intended as a building block for embedded power trees.
               </p>
 
+              <div className="pcb-container">
+                <div className="pcb-svg-wrap">
+                  <img
+                    src="buck-board.svg"
+                    alt="Buck Converter PCB — rendered from KiCad Gerber files"
+                    width="100%"
+                    style={{ maxWidth: 384, display: 'block', borderRadius: 6 }}
+                  />
+                </div>
+              </div>
+
               <div className="tags">
                 <span className="tag">KiCad</span>
                 <span className="tag">Power Electronics</span>
