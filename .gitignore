@@ -1,0 +1,5 @@
+node_modules/
+dist/
+fc1_extracted/
+.DS_Store
+*.local
