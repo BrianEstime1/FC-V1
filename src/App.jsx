@@ -117,7 +117,7 @@ export default function App() {
                 <div className="t-line">
                   <span className="t-key">  status</span>
                   <span style={{color:'var(--text-muted)'}}>:</span>
-                  <span className="t-val">"Transferring to UCF Fall 2026"</span>
+                  <span className="t-val">"Electrical Engineer UCF"</span>
                 </div>
                 <div className="t-line">
                   <span className="t-key">  focus</span>
@@ -133,11 +133,6 @@ export default function App() {
                   <span className="t-key">  racing</span>
                   <span style={{color:'var(--text-muted)'}}>:</span>
                   <span className="t-val">"UCF Knights Racing Formula SAE"</span>
-                </div>
-                <div className="t-line">
-                  <span className="t-key">  mcu</span>
-                  <span style={{color:'var(--text-muted)'}}>:</span>
-                  <span className="t-val">"STM32 (bare-metal C)"</span>
                 </div>
                 <div className="t-line">
                   <span className="t-key">  eda</span>
