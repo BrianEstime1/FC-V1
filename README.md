@@ -133,4 +133,4 @@ npm run build
 
 **Brian Estime**  
 EE Student · Transferring to UCF Fall 2026  
-[github.com/BrianEstime1](https://github.com/BrianEstime1) · [linkedin.com/in/brianestime](https://linkedin.com/in/brianestime)
+[github.com/BrianEstime1](https://github.com/BrianEstime1) · [linkedin.com/in/brian-estime-747435355](https://linkedin.com/in/brian-estime-747435355)
