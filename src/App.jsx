@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react'
+import { Routes, Route, Link } from 'react-router-dom'
+import ProjectPage from './pages/ProjectPage.jsx'
 
 /* ─── SVG Icons ─────────────────────────────────────────────────── */
 const GithubIcon = () => (
@@ -32,7 +34,7 @@ const FCVPCB = () => (
 )
 
 /* ─── Main App ───────────────────────────────────────────────────── */
-export default function App() {
+function Portfolio() {
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
@@ -191,10 +193,7 @@ export default function App() {
               </p>
 
               <div className="card-note">
-                ⚠ Ordered with 0402 passives — discovered they're near-impossible to
-                hand-solder at home (0.5mm pads, 1mm pitch). Currently building a
-                breadboard prototype implementing a Kalman filter for IMU fusion,
-                validating firmware before the next PCB spin.
+                ⚠ Boards ordered with 0402 passives — currently prototyping on breadboard while waiting on a reflow solution.
               </div>
 
               <div className="pcb-container">
@@ -213,6 +212,9 @@ export default function App() {
                 <span className="tag">Kalman Filter</span>
                 <span className="tag">Bare-metal C</span>
               </div>
+              <Link to="/projects/fc-v1" className="read-more-link">
+                Read More →
+              </Link>
             </div>
 
             {/* Buck Converter */}
@@ -251,6 +253,9 @@ export default function App() {
                 <span className="tag">Thermal Design</span>
                 <span className="tag">DC-DC</span>
               </div>
+              <Link to="/projects/buck-converter" className="read-more-link">
+                Read More →
+              </Link>
             </div>
 
             {/* FERDAIR */}
@@ -302,6 +307,9 @@ export default function App() {
                 <span className="tag">SaaS</span>
                 <span className="tag">Production</span>
               </div>
+              <Link to="/projects/ferdair" className="read-more-link">
+                Read More →
+              </Link>
             </div>
 
           </div>
@@ -506,5 +514,14 @@ export default function App() {
         </div>
       </footer>
     </>
+  )
+}
+
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Portfolio />} />
+      <Route path="/projects/:slug" element={<ProjectPage />} />
+    </Routes>
   )
 }
