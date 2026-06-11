@@ -261,8 +261,8 @@ function Portfolio() {
               <div className="pcb-container">
                 <div className="pcb-svg-wrap">
                   <img
-                    src="buck-board.svg"
-                    alt="Buck Converter PCB — KiCad board render"
+                    src="IMG_2635.jpeg"
+                    alt="Buck Converter PCB — KiCad 3D Viewer render"
                     width="100%"
                     style={{ maxWidth: 384, display: 'block', borderRadius: 6 }}
                   />
