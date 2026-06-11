@@ -34,6 +34,15 @@ const FCVPCB = () => (
 )
 
 /* ─── Main App ───────────────────────────────────────────────────── */
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/" element={<Portfolio />} />
+      <Route path="/projects/:slug" element={<ProjectPage />} />
+    </Routes>
+  )
+}
+
 function Portfolio() {
   const [scrolled, setScrolled] = useState(false)
 
@@ -97,7 +106,7 @@ function Portfolio() {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <LinkedInIcon /> linkedin.com/in/brian-estime
+                  <LinkedInIcon /> linkedin.com/in/brian-estime-747435355
                 </a>
               </div>
             </div>
@@ -198,7 +207,12 @@ function Portfolio() {
 
               <div className="pcb-container">
                 <div className="pcb-svg-wrap">
-                  <FCVPCB />
+                  <img
+                    src="https://github.com/user-attachments/assets/b86c0c75-746b-45fa-88ab-f8fcac19de80"
+                    alt="FC-V1 3D render — KiCad 3D Viewer"
+                    width="100%"
+                    style={{ display: 'block', borderRadius: 4 }}
+                  />
                 </div>
               </div>
 
@@ -244,6 +258,7 @@ function Portfolio() {
                 Intended as a building block for embedded power trees.
               </p>
 
+              {/* TODO: swap src with Buck 3D render URL once available */}
               <div className="pcb-container">
                 <div className="pcb-svg-wrap">
                   <img
@@ -525,14 +540,5 @@ function Portfolio() {
         </div>
       </footer>
     </>
-  )
-}
-
-export default function App() {
-  return (
-    <Routes>
-      <Route path="/" element={<Portfolio />} />
-      <Route path="/projects/:slug" element={<ProjectPage />} />
-    </Routes>
   )
 }
