@@ -45,7 +45,8 @@ Key design decisions:
 - SWD header placed on board edge for easy ST-Link access
 - LDO placed close to USB-C to minimize inrush current path length
 
-<img width="907" height="635" alt="preview (2)" src="https://github.com/user-attachments/assets/9617e618-cbfd-426d-90ff-b9551aa1c517" />
+<img width="1150" height="1063" alt="IMG_2641" src="https://github.com/user-attachments/assets/bd5c8bcc-e107-43ba-b3c6-879e7841edc0" />
+
 <img width="751" height="451" alt="preview (1)" src="https://github.com/user-attachments/assets/b86c0c75-746b-45fa-88ab-f8fcac19de80" />
 
 
