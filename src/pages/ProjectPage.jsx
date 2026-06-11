@@ -4,8 +4,7 @@ const FC_V1_3D     = 'https://github.com/user-attachments/assets/b86c0c75-746b-4
 const FC_V1_PCB    = 'https://github.com/user-attachments/assets/bd5c8bcc-e107-43ba-b3c6-879e7841edc0'
 const FC_V1_GERBER = '/fc-v1-board.svg'
 
-// Swap these once Buck 3D image URL is available from the repo
-const BUCK_3D      = null  // 'https://github.com/user-attachments/assets/...'
+const BUCK_3D      = 'https://raw.githubusercontent.com/BrianEstime1/Buck-Converter/main/images/board_snapshot.png'
 const BUCK_GERBER  = '/buck-board.svg'
 
 const PROJECTS = {
