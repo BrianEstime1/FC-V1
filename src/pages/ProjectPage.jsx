@@ -4,7 +4,7 @@ const FC_V1_3D     = 'https://github.com/user-attachments/assets/b86c0c75-746b-4
 const FC_V1_PCB    = 'https://github.com/user-attachments/assets/bd5c8bcc-e107-43ba-b3c6-879e7841edc0'
 const FC_V1_GERBER = '/fc-v1-board.svg'
 
-const BUCK_3D      = 'https://github.com/user-attachments/assets/cdf8b500-1b94-4271-a607-92f9fb4a7128'
+const BUCK_3D      = '/IMG_2635.jpeg'
 const BUCK_GERBER  = '/buck-board.svg'
 
 const PROJECTS = {
