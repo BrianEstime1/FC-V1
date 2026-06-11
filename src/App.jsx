@@ -258,12 +258,11 @@ function Portfolio() {
                 Intended as a building block for embedded power trees.
               </p>
 
-              {/* TODO: swap src with Buck 3D render URL once available */}
               <div className="pcb-container">
                 <div className="pcb-svg-wrap">
                   <img
-                    src="buck-board.svg"
-                    alt="Buck Converter PCB — rendered from KiCad Gerber files"
+                    src="https://raw.githubusercontent.com/BrianEstime1/Buck-Converter/main/images/board_snapshot.png"
+                    alt="Buck Converter PCB — KiCad board render"
                     width="100%"
                     style={{ maxWidth: 384, display: 'block', borderRadius: 6 }}
                   />
